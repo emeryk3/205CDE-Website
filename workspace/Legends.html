@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness King &#10162; Legends</title>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <script type="text/javascript">
+    </script>
+    </head>
+<body class="webback">
+
+
+<!--****************************************
+=== LAYOUT === Background ===
+****************************************-->
+<div class="outercontainer">
+<div class="firstframe">
+<div class="secondframe">
+<div class="innercontainer">
+<table id="contenttable" class="contenttable">
+    <tr>
+        <td id="contentcell1" class="contentcell1">
+        <div class="logoinner">
+        <div class="board">
+        <div class="logooverlay">
+        </div></div></div></td></tr>
+    <tr>
+        <td id="contentcell2" class="contentcell2">
+
+<!--****************************************
+=== LAYOUT === Drop-down buttons ===
+****************************************-->
+        <table id="buttontable" class="buttontable">
+    <tr><td>
+        <div id="dropper1" class="dropper1">Home &#9660;
+            <a id="drop1" class="dropee1" href="MainPage.html">Main Page</a>
+            <a id="drop2" class="dropeelast1" href="AboutPage.html">About Us</a>
+        </div></td>
+    <td>
+        <div id="dropper2" class="dropper2">Nutrition &#9660;
+            <a id="drop3" class="dropee2" href="Nutrition.html">Diet Plan</a>
+            <a id="drop4" class="dropee2" href="GenderMale.html">Male Diet</a>
+            <a id="drop5" class="dropeelast2" href="GenderFemale.html">Female Diet</a>
+        </div></td>
+    <td>
+        <div id="dropper3" class="dropper3">Exercises &#9660;
+            <a id="drop6" class="dropee3" href="Exercise.html">Workout Plan</a>
+            <a id="drop7" class="dropee3" href="ExerciseCompound.html">Compound</a>
+            <a id="drop8" class="dropeelast3" href="ExerciseIsolated.html">Isolated</a>
+        </div></td>
+    <td>
+        <div id="dropper4" class="dropper4">Legends &#9660;
+            <a id="drop9" class="dropee4" href="Legends.html">Fitness Legends</a>
+            <a id="drop10" class="dropeelast4" href="flask_sqlite.html">Database</a>
+        </div></td>
+    <td>
+        <div id="dropper5" class="dropper5">Extra &#9660;
+            <a id="drop11" class="dropee5" href="Tutorial.html">Help</a>
+            <a id="drop12" class="dropeelast5" href="ContactUs.html">Contact Us</a>
+        </div></td></tr></table>
+    <tr>
+        <td id="contentcell3" class="contentcell3">
+        <div class="contentinner">
+<br><br>
+
+<!--****************************************
+=== CONTENT === Legends content ===
+****************************************-->
+<span class="headertext">Legends of the Gym</span><br><br>
+<span class="contenttext">Ready to be the best? Well first, you've got to beat the best.<br>
+<br>
+        <!-- Bootstrap Collapse -->
+        <div class="panel-group" id="accordion">
+
+            <!-- Panel 1 -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    <strong>Arnold Schwarzenegger:</strong>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                      <i>"Strength does not come from winning. Your struggles develop your strengths. 
+                      When you go through hardships and decide not to surrender, that is strength."</i>
+                  </div>
+              </div>
+            </div>
+
+<!-- Bootstrap Carousel -->
+<div id="Carousel" class="carousel slide">
+   <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="Carousel" data-slide-to="1"></li>
+            <li data-target="Carousel" data-slide-to="2"></li>
+        </ol>
+
+
+  <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/arnold.jpg">
+            </div>
+            <div class="item">
+                <img src="images/powerlifting.jpg">
+            </div>
+            <div class="item">
+                <img src="images/powerlifting-benchpress.jpg">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+<br><br>
+Click the button below to view a database about some famous lifters.
+</span><br><br>
+<a class="getstartedbutton" href="flask_sqlite.html">View Legends <span class="arrow">&#8674;</span></a>
+
+<br><br><br>
+</div></td></tr></table></div></div></div></div>
+</body>
+<script src="bootstrap.js"></script>
+<script src="jquery.js"></script>
+</html>

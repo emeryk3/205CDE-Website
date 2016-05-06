@@ -1,0 +1,978 @@
+/*STYLES*/
+/*If you need a visual representation of what each element does,
+then simply remove the '.' before the start of the element.
+For example, the '.' in '.outercontainer'. */
+
+/*Importing font styles Oxygen and Roboto*/
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.webback {  /*body */
+background-image: url("BG.png");
+background-size: contain;
+background-position: 0px 0px;
+}
+
+.calback {  /*body */
+background-color: black;
+}
+
+.outercontainer {  /*div */
+width: 1029px;
+height: auto;
+display: block;
+margin: auto;
+background-color: transparent;
+padding-top: 3px;
+padding-left: 3px;
+border-top-left-radius: 32px;
+border-bottom-right-radius: 32px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+.firstframe {  /*div */
+width: auto;
+height: auto;
+display: block;
+background-color: transparent;
+padding-top: 5px;
+padding-left: 5px;
+border-width: 8px;
+border-color: #0078BF;
+border-top-style: solid;
+border-left-style: solid;
+border-top-left-radius: 50px;
+}
+
+.secondframe {  /*div */
+width: auto;
+height: auto;
+display: block;
+background-color: transparent;
+padding-top: 5px;
+padding-left: 5px;
+border-width: 8px;
+border-color: #83D1F5;
+border-top-style: solid;
+border-left-style: solid;
+border-top-left-radius: 40px;
+}
+
+.innercontainer {  /*div */
+width: auto;
+height: auto;
+display: block;
+background-color: #83D1F5;
+border-top-left-radius: 30px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 30px;
+box-shadow: 0px 0px 0px 8px #83D1F5 inset;
+}
+
+/* NOT USED
+.bodyimagetable{  
+width: 100%;
+height: auto;
+border:0px solid black;
+color: white;
+background-color: #555555;
+border-radius: 17px;
+border-spacing: 1px;
+} */
+
+/* NOT USED
+.bodyspc1{
+width: 20%
+height: auto;
+border: 0px solid black;
+color: #000000;
+text-shadow: 0px 0px 1px white;
+background-color: #AAAAAA;
+font-family: "Roboto", sans-serif;
+font-size: 12px;
+padding-left: 4px;
+border-top-left-radius: 15px;
+} */
+
+.contenttable {  /*table */
+width: 100%;
+height: 100%;
+border: 0px solid #0078BF;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-spacing: 5px;
+}
+
+.contentcell1 {  /*td; controls contentcell1 text */
+width: 100%;
+height: auto;
+background-color: #0078BF;
+border: 0px solid #0078BF;
+border-top-left-radius: 25px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.contentcell2 {  /*td; controls contentcell2 text */
+width: 100%;
+height: auto;
+background-color: #0078BF;
+border: 0px solid #0078BF;
+text-align: center;
+border-radius: 10px;
+}
+
+.contentcell3 {   /*td; controls contentcell3 text */
+width: 100%;
+height: auto;
+background-color: #0078BF;
+border: 0px solid #0078BF;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 25px;
+font-family: "Oxygen", san-serif;
+text-align: center;
+vertical-align: top;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.logoinner {   /*div; sets logobg (dummbells) header space*/
+width: 99%;
+height: 150px;
+margin: auto;
+background-color: #EEEEEE;
+background-image: url("LogoBG.png");
+border: 1px solid black;
+border-top-left-radius: 20px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.contentinner {   /*div; sets main body */
+width: 99%;
+height: auto;
+margin: auto;
+background-color: #EEEEEE;
+border: 1px solid black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 20px;
+}
+
+.logoimg {   /*img*/
+width: auto;
+height: auto;
+margin: auto;
+display: block;
+background-color: transparent;
+position: relative;
+}
+
+.headertext {  /* span; Sets style for header text */
+font-size: 30px;
+font-weight: bold;
+margin-top: 50px;
+text-shadow: 0px 0px 5px white;
+}
+
+.contenttext {  /* span; Sets style for content text */
+font-size: 20px;
+text-shadow: 0px 0px 5px white;
+}
+
+.footertext {  /* span; Sets style for footer text */
+font-size: 12px;
+text-shadow: 0px 0px 5px white;
+}
+
+.contenttextr {  /*span*/
+width: 850px;
+height: auto;
+margin: auto;
+display: block;
+font-size: 16px;
+text-shadow: 0px 0px 5px white;
+}
+
+.bodytypebodytext {  /*span; Unused GenderAlt html page*/
+font-size: 14px;
+}
+
+.dropper1 {  /*div; connected on JavaScriptActions page*/
+width: 170px;
+height: 45px;
+display: block;
+margin: auto;
+background-color: #DDDDDD;
+padding: 15px;
+font-family: "Oxygen", san-serif;
+font-size: auto;
+font-weight: bold;
+text-shadow: 0px 0px 1px #FFFFFF;
+text-align: center;
+text-decoration: none;
+color: #000000;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+}
+
+.dropper2 {  /*div; connected on JavaScriptActions page*/
+width: 170px;
+height: 45px;
+display: block;
+margin: auto;
+background-color: #DDDDDD;
+padding: 15px;
+font-family: "Oxygen", san-serif;
+font-size: auto;;
+font-weight: bold;
+text-shadow: 0px 0px 1px #FFFFFF;
+text-align: center;
+text-decoration: none;
+color: #000000;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+}
+
+.dropper3 {  /*div; connected on JavaScriptActions page*/
+width: 170px;
+height: 45px;
+display: block;
+margin: auto;
+background-color: #DDDDDD;
+padding: 14px;
+font-family: "Oxygen", san-serif;
+font-size: auto;;
+font-weight: bold;
+text-shadow: 0px 0px 1px #FFFFFF;
+text-align: center;
+text-decoration: none;
+color: #000000;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;    
+}
+
+.dropper4 {  /*div; connected on JavaScriptActions page*/
+width: 170px;
+height: 45px;
+display: block;
+margin: auto;
+background-color: #DDDDDD;
+padding: 14px;
+font-family: "Oxygen", san-serif;
+font-size: auto;;
+font-weight: bold;
+text-shadow: 0px 0px 1px #FFFFFF;
+text-align: center;
+text-decoration: none;
+color: #000000;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;    
+}
+
+.dropper5 {  /*div; connected on JavaScriptActions page*/
+width: 170px;
+height: 45px;
+display: block;
+margin: auto;
+background-color: #DDDDDD;
+padding: 14px;
+font-family: "Oxygen", san-serif;
+font-size: auto;
+font-weight: bold;
+text-shadow: 0px 0px 1px #FFFFFF;
+text-align: center;
+text-decoration: none;
+color: #000000;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;    
+}
+
+.dropee1 {  /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -16px;
+position: relative;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+
+.dropee2 {  /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -16px;
+position: relative;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}  
+
+.dropee3 {  /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -15px;
+position: relative;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+} 
+
+.dropee4 {  /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -15px;
+position: relative;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+} 
+
+.dropee5 {  /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -15px;
+position: relative;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+} 
+
+/*After the first dropee, this is the code for any subsequent dropee buttons*/
+.dropeelast1 {  /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -16px;
+position: relative;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+
+.dropeelast2 { /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -16px;
+position: relative;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+
+.dropeelast3 { /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -15px;
+position: relative;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+
+.dropeelast4 { /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -15px;
+position: relative;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+
+.dropeelast5 { /*a; connected on JavaScriptActions page*/
+width: 170px;
+height: 40px;
+display: none;
+top: 4px;
+left: -16px;
+position: relative;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+background-color: #EEEEEE;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+text-decoration: none;
+color: #000000;
+}
+
+/* Setting javascript animation style of dropees to hover */
+a.dropee1:hover, a.dropee2:hover, a.dropee3:hover, a.dropee4:hover, a.dropee5:hover, a.dropeelast1:hover, a.dropeelast2:hover, a.dropeelast3:hover, a.dropeelast4:hover, a.dropeelast5:hover {
+background-color: #CCCCCC;
+}
+
+@keyframes roundin {
+0% {border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+100% {border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+}
+
+@keyframes roundout {
+0% {border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+100% {border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+}
+
+@keyframes fadein {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@keyframes fadeout {
+0% {opacity: 1;}
+100% {opacity: 0; display: none;}
+}
+
+@keyframes pulser {
+0% {background-color: #CCCCCC;}
+100% {background-color: #000000;}
+}
+
+.buttontable { /*table*/
+width: 100%;
+height: 100%;
+background-color: transparent;
+border-spacing: 3px;
+}
+
+.getstartedbutton { /*a*/
+width: 300px;
+height: auto;
+display: block;
+margin: auto;
+color: black;
+text-align: center;
+text-decoration: none;
+text-shadow: 0px 0px 3px white;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 30px;
+font-weight: bold;
+border-top: 5px groove white;
+border-left: 5px groove white;
+border-bottom: 5px ridge white;
+border-right: 5px ridge white;
+border-radius: 50px;
+background-color: #83D1F5;
+box-shadow: 0px 0px 10px 4px #007899 inset;
+}
+
+.getstartedbutton:hover { /*a*/
+background-color: #83D1F5;
+box-shadow: 0px 0px 10px 2px #007899 inset;
+}
+
+.board { /*div*/
+width: 360px;
+height: 130px;
+margin: auto;
+top: 6px;
+left: 2px;
+position: relative;
+background-color: white;
+border-radius: 10px;
+border-top: 5px ridge #DDDDDD;
+border-left: 5px ridge #DDDDDD;
+border-bottom: 5px groove #DDDDDD;
+border-right: 5px groove #DDDDDD;
+}
+
+.logooverlay { /*div*/
+width: 350px;
+height: 150px;
+margin: auto;
+top: 10px;
+left: -3px;
+position: relative;
+background-image: url("Logo.png");
+background-repeat: no-repeat;
+}
+
+.showtable {  /*table*/
+width: 850px;
+height: auto;
+margin: auto;
+background-color: #DDDDDD;
+border-radius: 20px;
+border-spacing: 10px 0px;
+padding-bottom: 10px;
+padding-top: 10px;
+box-shadow: 0px 0px 3px 3px #AAAAAA;
+}
+
+.databasetable { /*table for flask_sqlite.html database table */
+width: 550px;
+height: auto;
+margin: auto;
+background-color: #DDDDDD;
+border-radius: 20px;
+border-spacing: 10px 0px;
+padding-bottom: 10px;
+padding-top: 10px;
+box-shadow: 0px 0px 3px 3px #AAAAAA;
+}
+.titlepadding {  /*td*/
+font-family: "Roboto", san-serif;
+font-weight: bold;
+border-top: 3px groove #CCCCCC;
+border-bottom: 0px ridge #CCCCCC;
+border-left: 3px groove #CCCCCC;
+border-right: 3px ridge #CCCCCC;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+background-color: #0098BF;
+color: white;
+padding-top: 10px;
+cursor: pointer;
+}
+
+.GenderImageMale { /*td; Nutrition Male Gender Image table display*/
+width: 300px;
+height: 269px;
+background-image: url("images/Male.png");
+background-size: cover;
+background-color: #0098BF;
+border-top: 0px groove #CCCCCC;
+border-bottom: 3px ridge #CCCCCC;
+border-left: 3px groove #CCCCCC;
+border-right: 3px ridge #CCCCCC;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+box-shadow: 0px 0px 5px 8px #0098BF inset;
+cursor: pointer;
+}
+
+.GenderImageFemale {  /*td; Nutrition Female Gender Image table display*/
+width: 300px;
+height: 269px;
+background-image: url("images/Female.png");
+background-size: cover;
+background-color: #0098BF;
+border-top: 0px groove #CCCCCC;
+border-bottom: 3px ridge #CCCCCC;
+border-left: 3px groove #CCCCCC;
+border-right: 3px ridge #CCCCCC;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+box-shadow: 0px 0px 5px 8px #0098BF inset;
+cursor: pointer;
+}
+
+.ExerciseImageCompound {  /*td; Exercise Compound Exercise Image table display*/
+width: 300px;
+height: 369px;
+background-image: url("images/CompoundExercises/Deadlifts.jpg");
+background-size: cover;
+background-color: #0098BF;
+border-top: 0px groove #CCCCCC;
+border-bottom: 3px ridge #CCCCCC;
+border-left: 3px groove #CCCCCC;
+border-right: 3px ridge #CCCCCC;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+box-shadow: 0px 0px 5px 8px #0098BF inset;
+cursor: pointer;
+}
+
+.ExerciseImageIsolated{/*td; Exercise Isolated Exercise Image table display*/
+width: 300px;
+height: 369px;
+background-image: url("images/IsolatedExercises/Curls.jpg");
+background-size: cover;
+background-color: #0098BF;
+border-top: 0px groove #CCCCCC;
+border-bottom: 3px ridge #CCCCCC;
+border-left: 3px groove #CCCCCC;
+border-right: 3px ridge #CCCCCC;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+box-shadow: 0px 0px 5px 8px #0098BF inset;
+cursor: pointer;
+}
+
+.iframeholder {  /*div*/
+width: 926px;
+height: auto;
+margin: auto;
+padding-top: 6px;
+padding-bottom: 2px;
+padding-left: 1px;
+padding-right: 1px;
+background-color: #AAAAAA;
+border-radius: 30px;
+box-shadow: 0px 0px 2px 2px #0078BB;
+}
+
+.virtualiframe {  /*iframe*/
+width: 916px;
+height: 522px;
+background-color: black;
+border-top: 0px solid black;
+border-bottom: 0px solid black;
+border-left: 0px solid black;
+border-right: 0px solid black;
+border-radius: 26px;
+}
+
+.photogallery {  /*table*/
+width: 1000px;
+height: auto;
+margin: auto;
+background-color: #0078BF;
+border-top: 0px;
+border-bottom: 3px ridge white;
+border-left: 3px groove white;
+border-right: 3px ridge white;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+border-spacing: 10px;
+/*Makes text unselectable on browsers */
+-webkit-user-select: none; /* Chrome/ Safari */
+-ms-user-select: none; /* Firefox */
+-moz-user-select: none; /* IE */
+user-select: none; /* Likely future */
+}
+
+.photoshowcase {  /*table; Preview Image for Exercises Gallery*/
+width: 600px;
+height: auto;
+margin: auto;
+background-color: #0078BF;
+border-top: 3px groove white;
+border-bottom: 0px;
+border-left: 3px groove white;
+border-right: 3px ridge white;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+border-spacing: 10px;
+/*Makes text unselectable on browsers */
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.imagecell {  /*td*/
+width: auto;
+height: auto;
+background-color: #003F64;
+padding-top: 6px;
+padding-left: 6px;
+padding-right: 6px;
+padding-bottom: 2px;
+border-radius: 15px;
+box-shadow: 0px 0px 2px 2px #83D1F5 inset;
+cursor: pointer;
+/*Makes text unselectable on browsers */
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.imagepreview {  /*td*/
+width: 900px;
+height: 506px;
+background-color: #003F64;
+padding-top: 6px;
+padding-left: 6px;
+padding-right: 6px;
+padding-bottom: 2px;
+border-radius: 15px;
+box-shadow: 0px 0px 2px 2px #83D1F5 inset;
+/*Makes text unselectable on browsers */
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.changeimage {  /*img*/
+width: 100%;
+height: 100%;
+margin: auto;
+background-color: black;
+border-radius: 10px;
+/*Makes text unselectable on browsers */
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.exerciseimages {  /*img*/
+width: 199px;
+height: auto;
+margin: auto;
+border-radius: 10px;
+/*Makes text unselectable on browsers */
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.descriptivetext {  /*span*/
+font-size: 15px;
+}
+
+.codeinset {  /*a*/
+font-size: 13px;
+font-family: "Courier New", san-serif;
+}
+
+.missinginfo {  /*a*/
+font-weight: bold;
+color: red;
+}
+
+/* Gender Alt.html page NOT USED */
+.bodytypetable { /*table; positions the table of button*/
+width: auto;
+height: 30px;
+margin: auto;
+font-size: 16px;
+border-collapse: collapse;
+}
+
+.bodytypecella { /*td; body cell of button layout*/
+width: 300px;
+background-color: #AAAAAA;
+text-align: center;
+padding-right: 5px;
+}
+
+.bodytypecellb { /*td; left cell of button layout*/
+width: 40px;
+background-color: #CCCCCC;
+border-right: 2px solid black;
+text-align: center;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+font-size: 24px;
+}
+
+.bodytypecellc { /*td; right cell of button layout*/
+width: 40px;
+background-color: #CCCCCC;
+border-left: 2px solid black;
+text-align: center;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+font-size: 24px;
+}
+
+.previousbutton { /*a*/
+width: 40px;
+height: 100%;
+display: block;
+padding-bottom: 6px;
+background-color: transparent;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+}
+
+.nextbutton { /*a*/
+width: 40px;
+height: 100%;
+display: block;
+padding-bottom: 6px;
+background-color: transparent;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: pointer;
+}
+/* End of Gender Alt.html page NOT USED */
+
+/*comment.html*/
+.commentname {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.comment {
+    font-size: medium;
+}
+
+
