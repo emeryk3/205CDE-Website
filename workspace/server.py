@@ -8,7 +8,7 @@ import sqlite3
 
 app = Flask(__name__)
 app.config.update(dict(
-    DATABASE=os.path.join(app.root_path, 'recordstats.db'),
+    DATABASE=os.path.join(app.root_path, 'comments.db'),
     SECRET_KEY='development key'
 ))
 Bootstrap(app)
